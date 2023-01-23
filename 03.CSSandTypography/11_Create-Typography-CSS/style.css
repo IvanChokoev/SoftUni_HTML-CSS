@@ -1,0 +1,42 @@
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.headings{
+  font-family: Georgia, serif;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(204,204,204);
+}
+
+tr{
+    border-collapse: collapse;
+    border: 1px solid rgb(204,204,204);
+}
+
+td{
+    border-collapse: collapse;
+    border: 1px solid rgb(204,204,204);
+}
+
+ th{
+   background-color: rgb(204,204,204);
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid rgb(204,204,204);
+}
+
+blockquote{
+  padding-left: 20px;
+  border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+tr:nth-child(odd) td{
+    background: rgb(241, 241, 241);
+}
